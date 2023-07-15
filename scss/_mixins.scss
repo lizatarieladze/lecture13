@@ -1,0 +1,51 @@
+@mixin body {
+    width: 1178px;
+    margin: 0 auto;
+}
+
+@mixin shvili {
+    position: absolute;
+    top: 32px;
+    left: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+@mixin container{
+    width: 362px;
+    height: 169px;
+    background-color: white;
+    padding-top: 67px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+@mixin c-p{
+    margin-left: 37px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+}
+
+@mixin clock{
+    display: inline-block;
+    margin-left: 37px; 
+    vertical-align: middle;
+}
+
+@mixin minute{
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+    vertical-align: middle;
+}

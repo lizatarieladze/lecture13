@@ -1,0 +1,218 @@
+body{
+    /* border: 2px dotted black; */
+    margin: 0 auto;
+    background-color: #F5F5F5;;
+    header{
+        @include body;
+    }
+    section{
+        @include body;
+    }
+}
+
+header{
+    a{
+        display: inline-block;
+        margin-top: 21px;
+        margin-right: 35px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        color: #000000;
+        vertical-align: middle;
+    }
+    .logo1{
+        vertical-align: middle;
+        margin-top: 21px;
+    }
+}
+
+section{
+    h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: #000000;
+        margin-top: 42px;
+        margin-bottom: 27px;
+    }
+    .card1{
+        display: inline-block;
+        margin-right: 40px;
+        .mshobeli{
+            position: relative;
+            .shvili{
+                @include shvili;
+            }
+            
+        }
+        .container{
+            @include container;
+            .c-p{
+                @include c-p;
+            }
+            .clock{
+                @include clock;
+            }
+            .minute{
+                @include minute;
+            }
+        }
+        
+    }
+    .card2{
+        display: inline-block;
+        margin-right: 40px;
+        .mshobeli{
+            position: relative;
+            .shvili{
+                @include shvili;
+            }
+            
+        }
+        .container{
+            @include container;
+            .c-p{
+                @include c-p;
+            }
+            .clock{
+                @include clock;
+            }
+            .minute{
+                @include minute;
+            }
+        }
+
+    }
+    .card3{
+        display: inline-block;
+        .mshobeli{
+            position: relative;
+            .shvili{
+                @include shvili;
+            }
+            
+        }
+        .container{
+            @include container;
+            .c-p{
+                @include c-p;
+            }
+            .clock{
+                @include clock;
+            }
+            .minute{
+                @include minute;
+            }
+        }
+    }
+}
+
+
+
+
+/* SECTION 2 */
+
+.section-2{
+    h4{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        margin-top: 57px;
+        margin-bottom: 30px;
+    }
+    .div1{
+        display: inline-block;
+        width: 758px;
+        margin-right: 44px;
+        .div1-img{
+            position: relative;
+            margin-bottom: 41px;
+            border-radius: 5px;
+            display: inline-block;
+            .div1-p{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 23px;
+                color: #FFFFFF;
+                transform: translate(-50%, -50%);
+            }
+        }
+        
+    }
+    .div2{
+        display: inline-block;
+        vertical-align: top;
+        .div2-img{
+            display: block;
+            margin-bottom: 80px;
+        }
+    }
+    
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 201px;
+    background: #243043;
+    .f-div1{
+        display: inline-block;
+        margin-top: 59px;
+        margin-left: 167px;
+        margin-right: 90px;
+        h5{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 14px;
+            color: #818687;
+            margin-bottom: 14px;
+        }
+    }
+    .f-div{
+        display: inline-block;
+        margin-top: 59px;
+        margin-right: 90px;
+        h5{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 14px;
+            color: #818687;
+            margin-bottom: 14px;
+        }
+    }
+    h6{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FFFFFF;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 59px;
+        margin-left: 106px;
+    }
+    .geolablogo{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 59px;
+        margin-left: 417px
+    }
+}
